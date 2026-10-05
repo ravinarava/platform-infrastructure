@@ -22,3 +22,23 @@ DOMAIN_CUSTOMER_RO_ROLE
 
 DOMAIN_FINANCE_RW_ROLE
 DOMAIN_FINANCE_RO_ROLE
+
+PLATFORM_ADMIN_ROLE
+    Owns:
+    - Platform Infrastructure Repo
+
+INGESTION_ADMIN_ROLE
+    Owns:
+    - Data Ingestion Repo
+
+SADP_ADMIN_ROLE
+    Owns:
+    - SADP Repo
+
+DOMAIN_CUSTOMER_ADMIN_ROLE
+    Owns:
+    - Domain Customer Repo
+
+DOMAIN_FINANCE_ADMIN_ROLE
+    Owns:
+    - Domain Finance Repo
